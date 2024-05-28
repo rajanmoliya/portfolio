@@ -77,7 +77,7 @@ const NavBar = () => {
               href="#experience"
               className="block p-4 hover:border-b hover:text-slate-600"
             >
-              Experience
+              Skills
             </a>
           </li>
           <li>
