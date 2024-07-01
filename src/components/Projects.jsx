@@ -9,7 +9,7 @@ const projects = [
     title: "Medium Clone",
     image: "assets/project-1.png",
     github: "https://github.com/rajanmoliya/medium-blog-app",
-    liveDemo: "https://medium-blog-rm.vercel.app",
+    liveDemo: "https://blog.rajanmoliya.me",
   },
 
   {
@@ -48,13 +48,13 @@ const Projects = () => {
               </h2>
               <div className="btn-container flex justify-between">
                 <button
-                  className="btn btn-color-2 project-btn bg-gray-800 text-white py-2 px-4 rounded hover:bg-black"
+                  className="btn btn-color-2 project-btn bg-gray-800 text-white py-2 px-4 rounded hover:bg-black transform hover:scale-105 transition-transform duration-300 ease-in-out hover:shadow-2xl"
                   onClick={() => window.open(project.github, "_blank")}
                 >
                   Github
                 </button>
                 <button
-                  className="btn btn-color-2 project-btn bg-green-700 text-white py-2 px-4 rounded hover:bg-green-800"
+                  className="btn btn-color-2 project-btn bg-green-700 text-white py-2 px-4 rounded hover:bg-green-800 transform hover:scale-105 transition-transform duration-300 ease-in-out hover:shadow-2xl"
                   onClick={() => window.open(project.liveDemo, "_blank")}
                 >
                   Live Demo

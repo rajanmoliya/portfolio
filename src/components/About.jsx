@@ -16,7 +16,7 @@ const About = () => {
           </div> */}
           <div className="about-details-container md:order-2 flex-grow">
             <div className="grid grid-cols-2 gap-8">
-              <div className="details-container rounded-lg border border-gray-300 p-4 flex flex-col items-center">
+              <div className="details-container rounded-lg border border-gray-700 p-4 flex flex-col items-center">
                 <img
                   src="./assets/experience.png"
                   alt="Experience icon"
@@ -27,7 +27,7 @@ const About = () => {
                   <p className="text-sm">1+ years Frontend Development</p>
                 </div>
               </div>
-              <div className="details-container rounded-lg border border-gray-300 p-4 flex flex-col items-center">
+              <div className="details-container rounded-lg border border-gray-700 p-4 flex flex-col items-center">
                 <img
                   src="./assets/education.png"
                   alt="Education icon"
