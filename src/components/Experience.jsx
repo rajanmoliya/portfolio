@@ -8,7 +8,7 @@ const Experience = () => {
       dots.push(
         <div
           key={i}
-          className={`dot h-3 w-3 rounded-full ${
+          className={`dot h-2 w-2 rounded-full ${
             i < level ? "bg-green-400" : "bg-gray-300"
           }`}
         ></div>
