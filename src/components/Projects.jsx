@@ -1,22 +1,22 @@
 const projects = [
   {
-    title: "Project One",
-    image: "assets/",
+    title: "Vnsgu Result Checker",
+    image: "assets/vnsgu-result.png",
     github: "https://github.com/rajanmoliya",
-    liveDemo: "https://github.com/rajanmoliya",
+    liveDemo: "https://vnsgu-result.vercel.app/",
   },
   {
-    title: "Medium Clone",
-    image: "assets/project-1.png",
+    title: "Blog Website [Medium]",
+    image: "assets/medium-blog.png",
     github: "https://github.com/rajanmoliya/medium-blog-app",
     liveDemo: "https://blog.rajanmoliya.me",
   },
 
   {
-    title: "Project Three",
-    image: "assets/",
+    title: "E-commerce for Clothing",
+    image: "assets/swastik-creation.png",
     github: "https://github.com/rajanmoliya",
-    liveDemo: "https://github.com/rajanmoliya",
+    liveDemo: "https://swastik-creation.vercel.app/",
   },
 ];
 

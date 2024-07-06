@@ -43,7 +43,7 @@ const About = () => {
               </div>
             </div>
             <div className="text-container mt-8 md:mt-0 ">
-              <p className="text-lg text-gray-700 mt-8 text-center">
+              <p className="text-lg text-gray-700 mt-16 text-center">
                 Dynamic and skilled Full-Stack Developer with a strong
                 foundation in JavaScript.
                 <br />
