@@ -13,7 +13,7 @@ const projects = [
   },
 
   {
-    title: "E-commerce for Clothing",
+    title: "Saree Shop [E-commerce]",
     image: "assets/swastik-creation.png",
     github: "https://github.com/rajanmoliya",
     liveDemo: "https://swastik-creation.vercel.app/",
@@ -22,7 +22,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className=" py-20  ">
+    <section id="projects" className=" py-10  ">
       <div className="container mx-auto px-8">
         <div className="text-center mb-8">
           <p className="text-center text-gray-600 text-lg">Browse My Recent</p>
@@ -34,13 +34,13 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="details-container bg-gray-100 p-4 rounded-lg shadow-lg"
+              className="details-container bg-gray-100 p-4 rounded-lg shadow-lg mt-4"
             >
               <div className="article-container mb-4">
                 <img
                   src={project.image}
                   alt={`Project ${index + 1}`}
-                  className="project-img w-full h-48 object-cover rounded-md"
+                  className="project-img w-full h-48 object-cover rounded-md hover:scale-105 transition-transform duration-200 ease-in-out hover:shadow-2xl"
                 />
               </div>
               <h2 className="experience-sub-title project-title text-2xl font-semibold mb-4">

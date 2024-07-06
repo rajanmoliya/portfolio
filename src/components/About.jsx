@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section id="about" className=" py-20 flex items-center justify-center">
+    <section id="about" className="py-20 flex items-center justify-center">
       <div className="container mx-auto px-8">
         <p className="text-center text-gray-600 text-lg">Get To Know More</p>
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mt-4 mb-8">
@@ -14,7 +14,7 @@ const About = () => {
               className="w-48 md:w-64 rounded-lg"
             />
           </div> */}
-          <div className="about-details-container md:order-2 flex-grow">
+          <div className="about-details-container md:order-2 flex-grow mt-4">
             <div className="grid grid-cols-2 gap-8">
               <div className="details-container rounded-lg border border-gray-700 p-4 flex flex-col items-center">
                 <img
@@ -35,29 +35,37 @@ const About = () => {
                 />
                 <div className="text-center">
                   <h3 className="text-lg font-semibold">Education</h3>
-                  <p className="text-sm">
-                    BCA Bachelors Degree
-                    <br />
-                  </p>
+                  <p className="text-sm">BCA Bachelors Degree</p>
                 </div>
               </div>
             </div>
-            <div className="text-container mt-8 md:mt-0 ">
-              <p className="text-lg text-gray-700 mt-16 text-center">
-                Dynamic and skilled Full-Stack Developer with a strong
-                foundation in JavaScript.
-                <br />
-                Experienced in building robust web applications using frameworks
-                like React, Express, and Next.js. <br /> Proficient in backend
-                development with Node.js, as well as both NoSQL (MongoDB) and
-                SQL (Postgres) databases.
-                <br />
-                Adept at containerization with Docker and familiar with Monorepo
-                architecture for efficient code management. <br /> Experienced
-                in version control using GitHub and skilled in working in Linux
-                environments. <br /> Passionate about creating scalable and
-                efficient solutions to complex problems.
-              </p>
+            <div className="text-container mt-8 md:mt-0">
+              <ul className="list-disc list-inside text-lg text-gray-700 mt-16 text-left space-y-4">
+                <li>
+                  Dynamic and skilled Full-Stack Developer with a strong
+                  foundation in JavaScript.
+                </li>
+                <li>
+                  Experienced in building robust web applications using
+                  frameworks like React, Express, and Next.js.
+                </li>
+                <li>
+                  Proficient in backend development with Node.js, as well as
+                  both NoSQL (MongoDB) and SQL (Postgres) databases.
+                </li>
+                <li>
+                  Adept at containerization with Docker and familiar with
+                  Monorepo architecture for efficient code management.
+                </li>
+                <li>
+                  Experienced in version control using GitHub and skilled in
+                  working in Linux environments.
+                </li>
+                <li>
+                  Passionate about creating scalable and efficient solutions to
+                  complex problems.
+                </li>
+              </ul>
             </div>
           </div>
         </div>
