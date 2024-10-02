@@ -1,5 +1,11 @@
 const projects = [
   {
+    title: "SDJ EventHub",
+    image: "assets/cems.png",
+    github: "https://github.com/rajanmoliya/college-event-management",
+    liveDemo: "https://cems.rajanmoliya.me",
+  },
+  {
     title: "Vnsgu Result Checker",
     image: "assets/vnsgu-result.png",
     github: "https://github.com/rajanmoliya",
