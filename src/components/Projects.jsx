@@ -6,7 +6,7 @@ const projects = [
     liveDemo: "https://ide.rajanmoliya.me",
   },
   {
-    title: "SDJ EventHub",
+    title: "College Event Management",
     image: "assets/cems.png",
     github: "https://github.com/rajanmoliya/college-event-management",
     liveDemo: "https://cems.rajanmoliya.me",
