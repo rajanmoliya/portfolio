@@ -1,28 +1,34 @@
 const projects = [
   {
-    title: "Project One",
-    image: "assets/",
-    github: "https://github.com/rajanmoliya",
-    liveDemo: "https://github.com/rajanmoliya",
+    title: "SDJ EventHub",
+    image: "assets/cems.png",
+    github: "https://github.com/rajanmoliya/college-event-management",
+    liveDemo: "https://cems.rajanmoliya.me",
   },
   {
-    title: "Medium Clone",
-    image: "assets/project-1.png",
+    title: "Vnsgu Result Checker",
+    image: "assets/vnsgu-result.png",
+    github: "https://github.com/rajanmoliya",
+    liveDemo: "https://vnsgu-result.vercel.app/",
+  },
+  {
+    title: "Blog Website [Medium]",
+    image: "assets/medium-blog.png",
     github: "https://github.com/rajanmoliya/medium-blog-app",
-    liveDemo: "https://medium-blog-rm.vercel.app",
+    liveDemo: "https://blog.rajanmoliya.me",
   },
 
   {
-    title: "Project Three",
-    image: "assets/",
+    title: "Saree Shop [E-commerce]",
+    image: "assets/swastik-creation.png",
     github: "https://github.com/rajanmoliya",
-    liveDemo: "https://github.com/rajanmoliya",
+    liveDemo: "https://swastik-creation.vercel.app/",
   },
 ];
 
 const Projects = () => {
   return (
-    <section id="projects" className=" py-20  ">
+    <section id="projects" className=" py-10  ">
       <div className="container mx-auto px-8">
         <div className="text-center mb-8">
           <p className="text-center text-gray-600 text-lg">Browse My Recent</p>
@@ -34,13 +40,13 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="details-container bg-gray-100 p-4 rounded-lg shadow-lg"
+              className="details-container bg-gray-100 p-4 rounded-lg shadow-lg mt-4"
             >
               <div className="article-container mb-4">
                 <img
                   src={project.image}
                   alt={`Project ${index + 1}`}
-                  className="project-img w-full h-48 object-cover rounded-md"
+                  className="project-img w-full h-48 object-cover rounded-md hover:scale-105 transition-transform duration-200 ease-in-out hover:shadow-2xl"
                 />
               </div>
               <h2 className="experience-sub-title project-title text-2xl font-semibold mb-4">
@@ -48,13 +54,13 @@ const Projects = () => {
               </h2>
               <div className="btn-container flex justify-between">
                 <button
-                  className="btn btn-color-2 project-btn bg-gray-800 text-white py-2 px-4 rounded hover:bg-black"
+                  className="btn btn-color-2 project-btn bg-gray-800 text-white py-2 px-4 rounded hover:bg-black transform hover:scale-105 transition-transform duration-300 ease-in-out hover:shadow-2xl"
                   onClick={() => window.open(project.github, "_blank")}
                 >
                   Github
                 </button>
                 <button
-                  className="btn btn-color-2 project-btn bg-green-700 text-white py-2 px-4 rounded hover:bg-green-800"
+                  className="btn btn-color-2 project-btn bg-green-700 text-white py-2 px-4 rounded hover:bg-green-800 transform hover:scale-105 transition-transform duration-300 ease-in-out hover:shadow-2xl"
                   onClick={() => window.open(project.liveDemo, "_blank")}
                 >
                   Live Demo
