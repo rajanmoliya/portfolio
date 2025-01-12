@@ -1,5 +1,11 @@
 const projects = [
   {
+    title: "Online Code Editor",
+    image: "assets/IDE.JPG",
+    github: "https://github.com/rajanmoliya/code-editor",
+    liveDemo: "https://ide.rajanmoliya.me",
+  },
+  {
     title: "SDJ EventHub",
     image: "assets/cems.png",
     github: "https://github.com/rajanmoliya/college-event-management",
@@ -12,14 +18,14 @@ const projects = [
     liveDemo: "https://vnsgu-result.vercel.app/",
   },
   {
-    title: "Blog Website [Medium]",
+    title: "Blog Website",
     image: "assets/medium-blog.png",
     github: "https://github.com/rajanmoliya/medium-blog-app",
     liveDemo: "https://blog.rajanmoliya.me",
   },
 
   {
-    title: "Saree Shop [E-commerce]",
+    title: "Online Saree Shop",
     image: "assets/swastik-creation.png",
     github: "https://github.com/rajanmoliya",
     liveDemo: "https://swastik-creation.vercel.app/",
@@ -40,7 +46,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="details-container bg-gray-100 p-4 rounded-lg shadow-lg mt-4"
+              className="details-container p-4 rounded-lg border rounded-2xl border-gray-700 mt-4"
             >
               <div className="article-container mb-4">
                 <img

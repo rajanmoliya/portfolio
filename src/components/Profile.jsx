@@ -43,12 +43,12 @@ const Profile = () => {
           {typedName}
         </h1>
         <p className="section__text__p2 text-xl lg:text-2xl text-gray-600 mb-6">
-          Full-Stack Developer
+          Software Developer
         </p>
         <div className="btn-container flex justify-center lg:justify-center gap-4 mb-6">
           <button
-            className="btn btn-color-2 border border-gray-700 px-6 py-3 rounded-full text-md transition-all hover:bg-gray-700 hover:text-white transform hover:scale-105 transition-transform duration-300 ease-in-out"
-            onClick={() => window.open("./assets/resume-example.pdf")}
+            className="btn btn-color-2 border border-gray-700 px-6 py-3 rounded-full text-md transition-all hover:bg-black hover:text-white transform hover:scale-105 transition-transform duration-300 ease-in-out"
+            onClick={() => window.open("./assets/rajan-resume.pdf")}
           >
             Download CV
           </button>
